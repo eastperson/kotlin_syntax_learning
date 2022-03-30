@@ -7,6 +7,9 @@ fun main () {
     for (i in 1..6) {
         checkNum(i)
     }
+    whenFunction(1)
+    whenFunction(25)
+    whenFunction(12)
 }
 
 
@@ -53,4 +56,15 @@ fun checkNum(score : Int) {
         else -> println("stupid")
     }
     println("--------------------")
+}
+
+// in과 !in을 컬렉션의 범위로 사용할 수 있다.
+fun whenFunction(x: Int) {
+    val validNumbers = listOf(25,50,100)
+    when (x) {
+        in 1..10 -> println("x is in the range")
+        in validNumbers -> println("x is valid")
+        !in 10..20 -> println("x is outside the range")
+        else -> print("none of the above")
+    }
 }

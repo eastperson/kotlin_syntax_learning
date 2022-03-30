@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
 }
 
 /**
- * car factory라는 객체는 car를 만들때만 사용하기 위해서 딱 1번만 생성된다.
+ * car factory 라는 객체는 car 를 만들때만 사용하기 위해서 딱 1번만 생성된다.
  * 따라서 불필요한 메모리 소비를 줄일 수 있다.
  */
 object CarFactory{

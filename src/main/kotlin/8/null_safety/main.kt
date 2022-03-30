@@ -1,4 +1,4 @@
-package `8`.`null`
+package `8`.null_safety
 
 fun main(args: Array<String>) {
     ignoreNulls("ep")

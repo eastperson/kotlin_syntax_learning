@@ -20,6 +20,6 @@ fun main(args: Array<String>) {
 }
 
 // 클래스의 프로퍼티 처럼 사용할 수 있다.
-// toString(), constructor(), hashcode(), equals(), copy()가 생성된다.
+// toString(), constructor(), hashCode(), equals(), copy()가 생성된다.
 data class Ticket(val companyName : String, val name : String, var date : String, var seatNumber : Int)
 class TicketNormal(val companyName : String, val name : String, var date : String, var seatNumber : Int)
